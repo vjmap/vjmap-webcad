@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:,">
+    <title>交互式插入符号 - WebCAD</title>
+    <style>
+        * { margin: 0; box-sizing: border-box; }
+        body { background-color: #022B4F; height: 100vh; overflow: hidden; }
+        #map { position: absolute; left: 0; right: 0; top: 0; bottom: 0; z-index: 0; }
+        #ui { z-index: 2; }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <div id="ui"></div>
+    <script src="../../../js/vjcad-lib.umd.js"></script>
+    <script src="./04insertinteractive.js"></script>
+</body>
+</html>

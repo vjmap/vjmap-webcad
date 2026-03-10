@@ -1,0 +1,45 @@
+{
+  "name": "vcad-plugin-annotation",
+  "version": "1.0.0",
+  "description": "CAD批注/标记审阅工具",
+  "type": "module",
+  "main": "dist/vcad-plugin-annotation.js",
+  "module": "dist/vcad-plugin-annotation.js",
+  "vjcadPlugin": {
+    "id": "annotation",
+    "displayName": "批注",
+    "autoLoad": false,
+    "keywords": [
+      "annotation",
+      "markup",
+      "redline",
+      "review"
+    ]
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite build --watch",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "webcad",
+    "plugin",
+    "annotation",
+    "markup",
+    "redline",
+    "review"
+  ],
+  "author": "vjmap.com",
+  "license": "MIT",
+  "peerDependencies": {
+    "vjcad": ">=1.0.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "vite": "^5.0.0",
+    "vjcad": ">=1.0.2"
+  }
+}
